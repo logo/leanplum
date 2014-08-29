@@ -1,0 +1,21 @@
+
+/**
+ * Leanplum logo.
+ */
+
+.logo[data-logo="Leanplum"] {
+  width: 0;
+}
+
+.logo[data-logo="Leanplum"] > * {
+  background-image: url(images/logo.svg);
+  margin: 0 0 0 0;
+}
+
+.logo[data-logo="Leanplum"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="Leanplum"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
