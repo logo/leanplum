@@ -4,12 +4,12 @@
  */
 
 .logo[data-logo="Leanplum"] {
-  width: 3.5384549134441476em;
+  width: 4em;
 }
 
 .logo[data-logo="Leanplum"] > * {
   background-image: url(images/logo.svg);
-  margin: 0 0 0 0;
+  margin: -.1em 0 -.1em 0;
 }
 
 .logo[data-logo="Leanplum"][data-color="black"] > * {
